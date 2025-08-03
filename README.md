@@ -1,12 +1,49 @@
-# React + Vite
+# 🧠 Admin Panel — Built with React & Tailwind CSS
+## 🚀 Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Admin Dashboard Panel**, a standalone, lightweight, and scalable admin system built with **React** and **Tailwind CSS**. Whether you're managing product categories or scaling toward a full CMS or e-commerce backend, this panel gives you the foundation to move fast — with clean code and modern UI practices baked in.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡️ Fully responsive layout
+- 🎨 Tailwind CSS powered design
+- 🌗 Light/Dark mode support
+- 🧩 Modular component architecture
+- 🗂 Category management interface
+- 🔧 Easy to extend and customize
+- 💡 Clean, semantic codebase for easy maintenance
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+├── context/ # App-wide state (light/dark mode)
+├── ModalContaner/ # Reusable modal wrappers
+├── pages/ # Route-level views (e.g. Category)
+├── components/
+
+
+## 🛠 Tech Stack
+
+| Technology       | Role                    |
+|------------------|--------------------------|
+| React            | UI library               |
+| Tailwind CSS     | Styling framework        |
+| React Router DOM | Page navigation          |
+| React Icons      | Iconography              |
+| Context API      | Global state management  |
+
+
+
+## 🧪 Getting Started
+
+# Clone the repository
+git clone https://github.com/your-username/admin-dashboard-panel.git
+
+# Navigate to the project folder
+cd admin-dashboard-panel
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
