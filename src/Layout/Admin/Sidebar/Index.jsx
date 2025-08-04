@@ -76,18 +76,19 @@ const Sidebar = () => {
           lightmode={lightmode}
         />
         <SidebarGroupItem
-          targetPath="/"
+          targetPath="/content/warranty"
           title="مدیریت کارتنی‌ها"
           isExpanded={isExpanded}
           icon={<FaPagelines />}
           lightmode={lightmode}
         />
         <SidebarGroupItem
-          targetPath="/"
+          targetPath="/content/colors"
           title="مدیریت رنگ‌ها"
           isExpanded={isExpanded}
           icon={<FaPalette />}
           lightmode={lightmode}
+          
         />
         <SidebarGroupItem
           targetPath="/"
