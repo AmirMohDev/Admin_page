@@ -3,6 +3,7 @@ import { FaEdit, FaTrash, FaPlus, FaSitemap } from "react-icons/fa";
 import { AdminContext } from "../../context/Admin_context";
 import AddProduct from "./AddProduct/AddProduct";
 import PaginatedTable from "../../components/PaginatedTable/PaginatedTable";
+import { NavLink } from "react-router-dom";
 
 const Product = () => {
   const { lightmode } = useContext(AdminContext);
@@ -120,16 +121,15 @@ const Product = () => {
         >
           {/* Header */}
           <div
-            className="p-6 border-b border-gray-300 dark:border-gray-700 flex flex-col sm:flex-row
+            className="p-6 border-b border-gray-300 dark:border-gray-700 flex !flex-row-reverse sm:flex-row
           items-start sm:items-center justify-between gap-4"
           >
             <h2
-              className={`text-xl font-semibold ${
-                lightmode ? "text-gray-900" : "text-gray-100"
-              }`}
+               className={`text-2xl  font-semibold ${lightmode ? "text-gray-800" : "text-white"}`}
             >
               مدیریت محصولات
             </h2>
+            <NavLink to='/content/product/addproduct'>
             <button
               className="flex items-center gap-2 bg-green-600 hover:bg-green-700
              text-white px-5 py-2 rounded-xl shadow-md transition"
@@ -138,6 +138,8 @@ const Product = () => {
               <FaPlus />
               <span className="hidden sm:inline">افزودن محصول</span>
             </button>
+
+            </NavLink>
           </div>
 
 
